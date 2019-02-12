@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Sibyl",
+  "description": "A customizable survey form generator with sentiment analysis on respondent feedback.",
+  "version": "0.1",
+  "author": "Shaina Bautista, Ken Lingatong, Mark Nolledo",
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "declarativeContent"
+  ],
+
+  "background": {
+    "scripts": ["js/client.js"],
+    "persistent": false
+  },
+
+  "page_action": {
+    "default_popup": "popup.html"
+  }
+}
